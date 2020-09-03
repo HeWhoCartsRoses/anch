@@ -1,9 +1,7 @@
-import axios from 'axios';
+import { base } from './base';
 const Bugs = () => {
-    console.log('i got here bo')
-    axios.get('http://acnhapi.com/v1/bugs/')
+    base().get('art')
         .then(res => {
-            console.log('i got here boss!')
             console.log(res.data)
         })
         .catch(err => console.log(err.response));

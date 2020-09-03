@@ -1,7 +1,7 @@
 import axios from 'axios';
-export const auth = () => {
+export const base = () => {
     return axios.create({
         baseURL: 'http://acnhapi.com/v1/'
     });
 };
-export default auth;
+export default base;

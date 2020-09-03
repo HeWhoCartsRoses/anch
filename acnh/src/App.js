@@ -1,9 +1,7 @@
 import React from 'react';
 import Bugs from './Bugs'
 function App() {
-
   Bugs()
-  console.log('i get here!')
   return (
     <div className="App">
       <header className="App-header">
@@ -12,6 +10,7 @@ function App() {
       <div>
         options
       </div>
+
     </div>
   );
 }
